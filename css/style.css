@@ -1,0 +1,63 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+.padding-0 > *{
+    padding: 0;
+}
+
+.card{
+    border:0;
+    border-radius: 0;
+}
+
+.card-left{
+    border-left: 2px solid #9c9c9c;
+    border-top: 2px solid #9c9c9c;
+    border-bottom: 2px solid #9c9c9c;
+
+    color: white;
+    
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-image: linear-gradient(180deg,  rgb(131 131 131), rgb(118 118 118), rgb(93 93 93), rgb(73 73 73), rgb(60 60 60));
+}
+
+.card-right{
+    border-right: 2px solid #9c9c9c;
+    border-top: 2px solid #9c9c9c;
+    border-bottom: 2px solid #9c9c9c;
+
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.card-img-top{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+    border: 1px solid #5e5e5e;
+    box-shadow: 0 1rem 3rem rgba(63, 63, 63, 0.4)!important;
+}
+
+.social-media{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.supporting-text{
+    margin-bottom: 0;
+}
+
+.mail-to{
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#name{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
