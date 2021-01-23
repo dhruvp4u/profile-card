@@ -5,17 +5,17 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row padding-0">
-            <div class="col-lg-4 col-md-4">
+    <div class="container centered">
+        <div class="row padding-0 justify-content-center">
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-8 col-xs-8 col-8">
                 <div class="card h-100 card-left">
                     <img class="rounded-circle card-img-top" src="img/profile-picture.jpg" alt="Dhruv Ashok Padalia" data-holder-rendered="true">
                     <div class="card-body text-center">
-                      <h4 id="name" class="card-title text-capitalize">Dhruv Ashok Padalia</h4>
+                      <h4 id="name" class="card-title text-capitalize"><b>Dhruv Ashok Padalia</b></h4>
                       <p class="supporting-text text-capitalize">Colorado State University,</p>
                       <p class="supporting-text text-capitalize">Fort Collins, CO, USA</p>
                       <a class="mail-to" href="mailto:dhruv.padalia@colostate.edu">dhruv.padalia @ colostate.edu</a>
@@ -26,20 +26,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-8">
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-4 col-4">
                 <div class="card h-100 card-right">
-                    <div class="card-body">
-                      <h3 class="card-title">Information</h3>
-                      <hr />
-                      <div class="row">
-                          <div class="col-6">
-                              <h5>Email</h5>
-                              <p>dhruv.padalia@colostate.edu</p>
-                          </div>
-                          <div class="col-6"></div>
-                      </div>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card-body cool-stats">
+                        <div class="text-center">
+                            <h5 id="repos">-</h5>
+                            <h5 class="text-uppercase"><b>Repositories</b></h5>
+                        </div>
+                        <div class="text-center cool-stats middle-stat">
+                            <h5 id="followers">-</h5>
+                            <h5 class="text-uppercase"><b>Followers</b></h5>
+                        </div>
+                        <div class="text-center cool-stats">
+                            <h5 id="following">-</h5>
+                            <h5 class="text-uppercase"><b>Following</b></h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,5 +48,6 @@
     </div>
 
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
