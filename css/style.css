@@ -2,9 +2,6 @@ body{
     font-family: 'Fjalla One', sans-serif;
 }
 
-.container{
-}
-
 .padding-0 > *{
     padding: 0;
 }
