@@ -1,5 +1,7 @@
 body{
     font-family: 'Fjalla One', sans-serif;
+    background-color: #fff;
+    /* background-image: linear-gradient(180deg,  rgb(131 131 131), rgb(118 118 118), rgb(93 93 93), rgb(73 73 73), rgb(60 60 60)); */
 }
 
 .padding-0 > *{
@@ -9,6 +11,7 @@ body{
 .card{
     border:0;
     border-radius: 0;
+    box-shadow: 0 1rem 3rem rgba(63, 63, 63, 0.7) !important;
 }
 
 .card-left{
@@ -16,16 +19,12 @@ body{
 
     color: white;
     
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
     background-image: linear-gradient(180deg,  rgb(131 131 131), rgb(118 118 118), rgb(93 93 93), rgb(73 73 73), rgb(60 60 60));
 }
 
 .card-right{
     color: white;
 
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
     background-image: linear-gradient(180deg,  rgb(131 131 131), rgb(118 118 118), rgb(93 93 93), rgb(73 73 73), rgb(60 60 60));
 }
 
