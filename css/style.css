@@ -1,5 +1,7 @@
 body{
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #fff;
+    /* background-image: linear-gradient(180deg,  rgb(131 131 131), rgb(118 118 118), rgb(93 93 93), rgb(73 73 73), rgb(60 60 60)); */
 }
 
 .padding-0 > *{
@@ -9,28 +11,23 @@ body{
 .card{
     border:0;
     border-radius: 0;
+    box-shadow: 0 1rem 3rem rgba(63, 63, 63, 0.7) !important;
 }
 
 .card-left{
-    border-left: 2px solid #9c9c9c;
-    border-top: 2px solid #9c9c9c;
-    border-bottom: 2px solid #9c9c9c;
+    border-right: 2px solid #fff;
 
     color: white;
     
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
     background-image: linear-gradient(180deg,  rgb(131 131 131), rgb(118 118 118), rgb(93 93 93), rgb(73 73 73), rgb(60 60 60));
 }
 
 .card-right{
-    border-right: 2px solid #9c9c9c;
-    border-top: 2px solid #9c9c9c;
-    border-bottom: 2px solid #9c9c9c;
+    color: white;
 
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
+    background-image: linear-gradient(180deg,  rgb(131 131 131), rgb(118 118 118), rgb(93 93 93), rgb(73 73 73), rgb(60 60 60));
 }
+
 
 .card-img-top{
     width: 150px;
@@ -38,8 +35,8 @@ body{
     margin-right: auto;
     margin-top: 40px;
 
-    border: 1px solid #5e5e5e;
-    box-shadow: 0 1rem 3rem rgba(63, 63, 63, 0.4)!important;
+    border: 1px solid #6a6a6a;
+    box-shadow: 0 1rem 3rem rgba(63, 63, 63, 0.7)!important;
 }
 
 .social-media{
@@ -57,7 +54,32 @@ body{
     margin-bottom: 1rem;
 }
 
+.mail-to:hover{
+    color: black;
+}
+
 #name{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
+
+.cool-stats > div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cool-stats{
+    padding: 0;
+}
+
+.middle-stat{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
